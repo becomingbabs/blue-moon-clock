@@ -1,0 +1,26 @@
+/** @format */
+
+body {
+  background-image: url("blueMoon.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#date {
+  text-shadow: 0px 0px 5px #fff;
+  letter-spacing: 10px;
+  font-size: 60px;
+  font-family: "Audiowide", cursive;
+  color: #002deb;
+  text-align: left;
+  margin: 100px 0 0 100px;
+}
+
+#clock {
+  text-shadow: 0px 0px 5px #fff;
+  color: #002deb;
+  font-size: 60px;
+  font-family: "Audiowide", cursive;
+  text-align: right;
+  margin: 550px 50px 0 0;
+}
