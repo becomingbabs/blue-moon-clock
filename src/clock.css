@@ -1,26 +1,41 @@
-/** @format */
+html,
+body {
+  height: 100vh;
+  width: 100%;
+}
 
 body {
-  background-image: url("blueMoon.jpg");
-  background-repeat: no-repeat;
+  background: url("moon.jpg") center no-repeat;
   background-size: cover;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+  margin: 0px 8%;
+}
+
+.date {
+  text-align: left;
 }
 
 #date {
   text-shadow: 0px 0px 5px #fff;
   letter-spacing: 10px;
-  font-size: 60px;
+  font-size: 50px;
   font-family: "Audiowide", cursive;
   color: #002deb;
-  text-align: left;
-  margin: 100px 0 0 100px;
+}
+
+.clock {
+  text-align: right;
 }
 
 #clock {
   text-shadow: 0px 0px 5px #fff;
   color: #002deb;
-  font-size: 60px;
+  font-size: 50px;
   font-family: "Audiowide", cursive;
-  text-align: right;
-  margin: 550px 50px 0 0;
 }
